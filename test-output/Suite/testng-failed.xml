@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="utility.Listeners"/>
+  </listeners>
+  <test thread-count="3" parallel="tests" name="edge_test(failed)">
+    <parameter name="browser" value="edge"/>
+    <classes>
+      <class name="testcases.ContactSalesPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="afterSuite"/>
+          <include name="setup"/>
+          <include name="verifySalesForm"/>
+          <include name="loadConfig"/>
+        </methods>
+      </class> <!-- testcases.ContactSalesPageTest -->
+      <class name="testcases.BookDemoPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="afterSuite"/>
+          <include name="setup"/>
+          <include name="verifyBookDemo"/>
+          <include name="loadConfig"/>
+        </methods>
+      </class> <!-- testcases.BookDemoPageTest -->
+    </classes>
+  </test> <!-- edge_test(failed) -->
+  <test thread-count="3" parallel="tests" name="chrome_est(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="testcases.ClientPageTest">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="loadConfig"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="verifyWebsiteLinks"/>
+        </methods>
+      </class> <!-- testcases.ClientPageTest -->
+      <class name="testcases.BlogPageTest">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="verifyIfBlogsExist"/>
+          <include name="loadConfig"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testcases.BlogPageTest -->
+    </classes>
+  </test> <!-- chrome_est(failed) -->
+</suite> <!-- Failed suite [Suite] -->

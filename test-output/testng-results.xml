@@ -1,0 +1,628 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="22" total="38" passed="12" failed="4" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-13T20:41:42 GMT-08:00" name="Suite" finished-at="2023-01-13T20:50:30 GMT-08:00" duration-ms="527563">
+    <groups>
+      <group name="Smoke">
+        <method signature="AddUserPageTest.verifyAddSystemUser()[pri:0, instance:testcases.AddUserPageTest@229c6181]" name="verifyAddSystemUser" class="testcases.AddUserPageTest"/>
+        <method signature="AdminPageTest.verifyEmployeeList()[pri:0, instance:testcases.AdminPageTest@18df8434]" name="verifyEmployeeList" class="testcases.AdminPageTest"/>
+        <method signature="BlogPageTest.verifyIfBlogsExist()[pri:0, instance:testcases.BlogPageTest@4b45a2f5]" name="verifyIfBlogsExist" class="testcases.BlogPageTest"/>
+        <method signature="BlogPageTest.verifyImagesDisplayed()[pri:0, instance:testcases.BlogPageTest@4b45a2f5]" name="verifyImagesDisplayed" class="testcases.BlogPageTest"/>
+        <method signature="ClientPageTest.verifyWebsiteLinks()[pri:0, instance:testcases.ClientPageTest@791f145a]" name="verifyWebsiteLinks" class="testcases.ClientPageTest"/>
+        <method signature="DashboardPageTest.validateDashboardTasks()[pri:0, instance:testcases.DashboardPageTest@65c7a252]" name="validateDashboardTasks" class="testcases.DashboardPageTest"/>
+        <method signature="DirectoryPageTest.validateEmployeeList()[pri:0, instance:testcases.DirectoryPageTest@4d154ccd]" name="validateEmployeeList" class="testcases.DirectoryPageTest"/>
+        <method signature="EBookPageTest.verifyDownloadLinks()[pri:0, instance:testcases.EBookPageTest@38cee291]" name="verifyDownloadLinks" class="testcases.EBookPageTest"/>
+        <method signature="HomePageTest.verifyLogout()[pri:0, instance:testcases.HomePageTest@5677323c]" name="verifyLogout" class="testcases.HomePageTest"/>
+        <method signature="HomePageTest.verifyUsername()[pri:0, instance:testcases.HomePageTest@5677323c]" name="verifyUsername" class="testcases.HomePageTest"/>
+        <method signature="LoginPageTest.verifyLoginTest()[pri:0, instance:testcases.LoginPageTest@2e6a8155]" name="verifyLoginTest" class="testcases.LoginPageTest"/>
+        <method signature="MyInfoPageTest.validateUserInfo()[pri:0, instance:testcases.MyInfoPageTest@1e0b4072]" name="validateUserInfo" class="testcases.MyInfoPageTest"/>
+        <method signature="SideBarTest.checkSideBarSearchFeature()[pri:0, instance:testcases.SideBarTest@4686afc2]" name="checkSideBarSearchFeature" class="testcases.SideBarTest"/>
+        <method signature="SideBarTest.validateSearchList()[pri:0, instance:testcases.SideBarTest@4686afc2]" name="validateSearchList" class="testcases.SideBarTest"/>
+        <method signature="BookDemoPageTest.verifyBookDemo()[pri:0, instance:testcases.BookDemoPageTest@27406a17]" name="verifyBookDemo" class="testcases.BookDemoPageTest"/>
+        <method signature="ContactSalesPageTest.verifySalesForm()[pri:0, instance:testcases.ContactSalesPageTest@2af004b]" name="verifySalesForm" class="testcases.ContactSalesPageTest"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2023-01-13T20:41:42 GMT-08:00" name="edge_test" finished-at="2023-01-13T20:42:49 GMT-08:00" duration-ms="66889">
+      <class name="testcases.BookDemoPageTest">
+        <test-method is-config="true" signature="loadConfig()[pri:0, instance:testcases.BookDemoPageTest@27406a17]" started-at="2023-01-13T20:41:41 GMT-08:00" name="loadConfig" finished-at="2023-01-13T20:41:42 GMT-08:00" duration-ms="921" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadConfig -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testcases.BookDemoPageTest@27406a17]" started-at="2023-01-13T20:41:42 GMT-08:00" name="setup" finished-at="2023-01-13T20:41:57 GMT-08:00" duration-ms="14229" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyBookDemo()[pri:0, instance:testcases.BookDemoPageTest@27406a17]" started-at="2023-01-13T20:41:57 GMT-08:00" name="verifyBookDemo" finished-at="2023-01-13T20:42:24 GMT-08:00" duration-ms="27612" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <input type="submit" name="action_submitForm" value="Submit" class="action" id="Form_getForm_action_submitForm" tabindex="5"> is not clickable at point (653, 445). Other element would receive the click: <iframe title="recaptcha challenge expires in two minutes" src="https://www.google.com/recaptcha/api2/bframe?hl=en&amp;v=u35fw2Dx4G0WsO6SztVYg4cV&amp;k=6LcRmG4hAAAAAFu7zOI-lpnsPm_-4nqSvKz8Am23" name="c-mx1yxw3zyapl" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation" data-lf-yt-playback-inspected-xbp1oaewrnz7edvj="true" data-lf-vimeo-playback-inspected-xbp1oaewrnz7edvj="true" style="width: 400px; height: 580px;"></iframe>
+  (Session info: MicrosoftEdge=108.0.1462.54)
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [4d026e519f8b7848d652209ade954d6a, clickElement {id=bd301907-b343-4aed-92ee-ec8af7311c25}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 108.0.1462.54, ms:edgeOptions: {debuggerAddress: localhost:36925}, msedge: {msedgedriverVersion: 108.0.1462.76 (5feb33087363..., userDataDir: C:\Users\dell\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:36925/devtoo..., se:cdpVersion: 108.0.1462.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: msedge on WINDOWS (4d026e519f8b7848d652209ade954d6a)] -> xpath: //input[@id='Form_getForm_action_submitForm']]
+Session ID: 4d026e519f8b7848d652209ade954d6a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input type="submit" name="action_submitForm" value="Submit" class="action" id="Form_getForm_action_submitForm" tabindex="5"> is not clickable at point (653, 445). Other element would receive the click: <iframe title="recaptcha challenge expires in two minutes" src="https://www.google.com/recaptcha/api2/bframe?hl=en&amp;v=u35fw2Dx4G0WsO6SztVYg4cV&amp;k=6LcRmG4hAAAAAFu7zOI-lpnsPm_-4nqSvKz8Am23" name="c-mx1yxw3zyapl" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation" data-lf-yt-playback-inspected-xbp1oaewrnz7edvj="true" data-lf-vimeo-playback-inspected-xbp1oaewrnz7edvj="true" style="width: 400px; height: 580px;"></iframe>
+  (Session info: MicrosoftEdge=108.0.1462.54)
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [4d026e519f8b7848d652209ade954d6a, clickElement {id=bd301907-b343-4aed-92ee-ec8af7311c25}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 108.0.1462.54, ms:edgeOptions: {debuggerAddress: localhost:36925}, msedge: {msedgedriverVersion: 108.0.1462.76 (5feb33087363..., userDataDir: C:\Users\dell\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:36925/devtoo..., se:cdpVersion: 108.0.1462.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: msedge on WINDOWS (4d026e519f8b7848d652209ade954d6a)] -> xpath: //input[@id='Form_getForm_action_submitForm']]
+Session ID: 4d026e519f8b7848d652209ade954d6a
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+at jdk.proxy2/jdk.proxy2.$Proxy21.click(Unknown Source)
+at pageobjects.BookDemoPage.isFormSubmitted(BookDemoPage.java:47)
+at testcases.BookDemoPageTest.verifyBookDemo(BookDemoPageTest.java:47)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1589)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBookDemo -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.BookDemoPageTest@27406a17]" started-at="2023-01-13T20:42:24 GMT-08:00" name="tearDown" finished-at="2023-01-13T20:42:25 GMT-08:00" duration-ms="849" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:testcases.BookDemoPageTest@27406a17]" started-at="2023-01-13T20:50:30 GMT-08:00" name="afterSuite" finished-at="2023-01-13T20:50:31 GMT-08:00" duration-ms="961" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- testcases.BookDemoPageTest -->
+      <class name="testcases.ContactSalesPageTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testcases.ContactSalesPageTest@2af004b]" started-at="2023-01-13T20:42:25 GMT-08:00" name="setup" finished-at="2023-01-13T20:42:36 GMT-08:00" duration-ms="10575" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifySalesForm()[pri:0, instance:testcases.ContactSalesPageTest@2af004b]" started-at="2023-01-13T20:42:36 GMT-08:00" name="verifySalesForm" finished-at="2023-01-13T20:42:49 GMT-08:00" duration-ms="13046" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element is not clickable at point (653, 960)
+  (Session info: MicrosoftEdge=108.0.1462.54)
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [185fe78d34f84b3980d8c6d35b62c1ee, clickElement {id=3bd94be0-f0ad-48ea-8f33-4f93a9302463}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 108.0.1462.54, ms:edgeOptions: {debuggerAddress: localhost:37091}, msedge: {msedgedriverVersion: 108.0.1462.76 (5feb33087363..., userDataDir: C:\Users\dell\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:37091/devtoo..., se:cdpVersion: 108.0.1462.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: msedge on WINDOWS (185fe78d34f84b3980d8c6d35b62c1ee)] -> xpath: //input[@id='Form_getForm_action_submitForm']]
+Session ID: 185fe78d34f84b3980d8c6d35b62c1ee]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (653, 960)
+  (Session info: MicrosoftEdge=108.0.1462.54)
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [185fe78d34f84b3980d8c6d35b62c1ee, clickElement {id=3bd94be0-f0ad-48ea-8f33-4f93a9302463}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 108.0.1462.54, ms:edgeOptions: {debuggerAddress: localhost:37091}, msedge: {msedgedriverVersion: 108.0.1462.76 (5feb33087363..., userDataDir: C:\Users\dell\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:37091/devtoo..., se:cdpVersion: 108.0.1462.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: msedge on WINDOWS (185fe78d34f84b3980d8c6d35b62c1ee)] -> xpath: //input[@id='Form_getForm_action_submitForm']]
+Session ID: 185fe78d34f84b3980d8c6d35b62c1ee
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+at jdk.proxy2/jdk.proxy2.$Proxy21.click(Unknown Source)
+at pageobjects.ContactSalesPage.verifyFormSubmission(ContactSalesPage.java:40)
+at testcases.ContactSalesPageTest.verifySalesForm(ContactSalesPageTest.java:46)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1589)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySalesForm -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.ContactSalesPageTest@2af004b]" started-at="2023-01-13T20:42:49 GMT-08:00" name="tearDown" finished-at="2023-01-13T20:42:49 GMT-08:00" duration-ms="416" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.ContactSalesPageTest -->
+    </test> <!-- edge_test -->
+    <test started-at="2023-01-13T20:41:42 GMT-08:00" name="chrome_est" finished-at="2023-01-13T20:50:30 GMT-08:00" duration-ms="527563">
+      <class name="testcases.BlogPageTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testcases.BlogPageTest@4b45a2f5]" started-at="2023-01-13T20:47:34 GMT-08:00" name="setup" finished-at="2023-01-13T20:47:40 GMT-08:00" duration-ms="5979" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyIfBlogsExist()[pri:0, instance:testcases.BlogPageTest@4b45a2f5]" started-at="2023-01-13T20:47:40 GMT-08:00" name="verifyIfBlogsExist" finished-at="2023-01-13T20:49:56 GMT-08:00" duration-ms="135663" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=108.0.5359.125)
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2ab1dc95bdb6ef9ba37b0dea8c287c08, findElements {using=xpath, value=//div[@class='blog-data-link']//a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:38100}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:38100/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2ab1dc95bdb6ef9ba37b0dea8c287c08]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=108.0.5359.125)
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2ab1dc95bdb6ef9ba37b0dea8c287c08, findElements {using=xpath, value=//div[@class='blog-data-link']//a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:38100}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:38100/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2ab1dc95bdb6ef9ba37b0dea8c287c08
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElements(ElementLocation.java:179)
+at org.openqa.selenium.remote.ElementLocation.findElements(ElementLocation.java:102)
+at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:380)
+at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:372)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElements(DefaultElementLocator.java:87)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementListHandler.invoke(LocatingElementListHandler.java:37)
+at jdk.proxy2/jdk.proxy2.$Proxy22.size(Unknown Source)
+at pageobjects.BlogPage.totalBlogsCount(BlogPage.java:58)
+at testcases.BlogPageTest.verifyIfBlogsExist(BlogPageTest.java:61)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1589)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIfBlogsExist -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.BlogPageTest@4b45a2f5]" started-at="2023-01-13T20:49:56 GMT-08:00" name="tearDown" finished-at="2023-01-13T20:49:56 GMT-08:00" duration-ms="195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testcases.BlogPageTest@4b45a2f5]" started-at="2023-01-13T20:49:56 GMT-08:00" name="setup" finished-at="2023-01-13T20:50:03 GMT-08:00" duration-ms="6893" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyImagesDisplayed()[pri:0, instance:testcases.BlogPageTest@4b45a2f5]" started-at="2023-01-13T20:50:03 GMT-08:00" name="verifyImagesDisplayed" finished-at="2023-01-13T20:50:28 GMT-08:00" duration-ms="25799" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyImagesDisplayed -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.BlogPageTest@4b45a2f5]" started-at="2023-01-13T20:50:28 GMT-08:00" name="tearDown" finished-at="2023-01-13T20:50:30 GMT-08:00" duration-ms="1433" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.BlogPageTest -->
+      <class name="testcases.HomePageTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testcases.HomePageTest@5677323c]" started-at="2023-01-13T20:42:06 GMT-08:00" name="setup" finished-at="2023-01-13T20:42:19 GMT-08:00" duration-ms="13115" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLogout()[pri:0, instance:testcases.HomePageTest@5677323c]" started-at="2023-01-13T20:42:19 GMT-08:00" name="verifyLogout" finished-at="2023-01-13T20:42:22 GMT-08:00" duration-ms="3398" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.HomePageTest@5677323c]" started-at="2023-01-13T20:42:22 GMT-08:00" name="tearDown" finished-at="2023-01-13T20:42:23 GMT-08:00" duration-ms="265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testcases.HomePageTest@5677323c]" started-at="2023-01-13T20:42:23 GMT-08:00" name="setup" finished-at="2023-01-13T20:42:33 GMT-08:00" duration-ms="10220" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyUsername()[pri:0, instance:testcases.HomePageTest@5677323c]" started-at="2023-01-13T20:42:33 GMT-08:00" name="verifyUsername" finished-at="2023-01-13T20:42:36 GMT-08:00" duration-ms="3142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUsername -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.HomePageTest@5677323c]" started-at="2023-01-13T20:42:36 GMT-08:00" name="tearDown" finished-at="2023-01-13T20:42:36 GMT-08:00" duration-ms="285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.HomePageTest -->
+      <class name="testcases.SideBarTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testcases.SideBarTest@4686afc2]" started-at="2023-01-13T20:43:52 GMT-08:00" name="setup" finished-at="2023-01-13T20:43:57 GMT-08:00" duration-ms="5782" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="checkSideBarSearchFeature()[pri:0, instance:testcases.SideBarTest@4686afc2]" started-at="2023-01-13T20:43:57 GMT-08:00" name="checkSideBarSearchFeature" finished-at="2023-01-13T20:44:09 GMT-08:00" duration-ms="11455" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSideBarSearchFeature -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.SideBarTest@4686afc2]" started-at="2023-01-13T20:44:09 GMT-08:00" name="tearDown" finished-at="2023-01-13T20:44:10 GMT-08:00" duration-ms="1227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testcases.SideBarTest@4686afc2]" started-at="2023-01-13T20:44:10 GMT-08:00" name="setup" finished-at="2023-01-13T20:44:16 GMT-08:00" duration-ms="5633" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateSearchList()[pri:0, instance:testcases.SideBarTest@4686afc2]" started-at="2023-01-13T20:44:16 GMT-08:00" name="validateSearchList" finished-at="2023-01-13T20:44:19 GMT-08:00" duration-ms="2959" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSearchList -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.SideBarTest@4686afc2]" started-at="2023-01-13T20:44:19 GMT-08:00" name="tearDown" finished-at="2023-01-13T20:44:19 GMT-08:00" duration-ms="335" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.SideBarTest -->
+      <class name="testcases.EBookPageTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testcases.EBookPageTest@38cee291]" started-at="2023-01-13T20:47:06 GMT-08:00" name="setup" finished-at="2023-01-13T20:47:12 GMT-08:00" duration-ms="6536" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyDownloadLinks()[pri:0, instance:testcases.EBookPageTest@38cee291]" started-at="2023-01-13T20:47:12 GMT-08:00" name="verifyDownloadLinks" finished-at="2023-01-13T20:47:34 GMT-08:00" duration-ms="21458" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDownloadLinks -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.EBookPageTest@38cee291]" started-at="2023-01-13T20:47:34 GMT-08:00" name="tearDown" finished-at="2023-01-13T20:47:34 GMT-08:00" duration-ms="379" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.EBookPageTest -->
+      <class name="testcases.ClientPageTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testcases.ClientPageTest@791f145a]" started-at="2023-01-13T20:44:30 GMT-08:00" name="setup" finished-at="2023-01-13T20:44:36 GMT-08:00" duration-ms="5904" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyWebsiteLinks()[pri:0, instance:testcases.ClientPageTest@791f145a]" started-at="2023-01-13T20:44:36 GMT-08:00" name="verifyWebsiteLinks" finished-at="2023-01-13T20:47:05 GMT-08:00" duration-ms="148881" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=108.0.5359.125)
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2976213f4abe35a8a507bd0dc4a52b7e, findElements {using=tag name, value=a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:37446}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:37446/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2976213f4abe35a8a507bd0dc4a52b7e]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=108.0.5359.125)
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2976213f4abe35a8a507bd0dc4a52b7e, findElements {using=tag name, value=a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:37446}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:37446/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2976213f4abe35a8a507bd0dc4a52b7e
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElements(ElementLocation.java:179)
+at org.openqa.selenium.remote.ElementLocation.findElements(ElementLocation.java:102)
+at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:380)
+at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:372)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElements(DefaultElementLocator.java:87)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementListHandler.invoke(LocatingElementListHandler.java:37)
+at jdk.proxy2/jdk.proxy2.$Proxy22.size(Unknown Source)
+at pageobjects.ClientPage.totalLinkCount(ClientPage.java:37)
+at pageobjects.ClientPage.brokenLinkMessage(ClientPage.java:97)
+at testcases.ClientPageTest.verifyWebsiteLinks(ClientPageTest.java:42)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1589)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWebsiteLinks -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.ClientPageTest@791f145a]" started-at="2023-01-13T20:47:05 GMT-08:00" name="tearDown" finished-at="2023-01-13T20:47:06 GMT-08:00" duration-ms="297" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.ClientPageTest -->
+      <class name="testcases.DirectoryPageTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testcases.DirectoryPageTest@4d154ccd]" started-at="2023-01-13T20:43:03 GMT-08:00" name="setup" finished-at="2023-01-13T20:43:09 GMT-08:00" duration-ms="5845" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateEmployeeList()[pri:0, instance:testcases.DirectoryPageTest@4d154ccd]" started-at="2023-01-13T20:43:09 GMT-08:00" name="validateEmployeeList" finished-at="2023-01-13T20:43:25 GMT-08:00" duration-ms="16189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateEmployeeList -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.DirectoryPageTest@4d154ccd]" started-at="2023-01-13T20:43:25 GMT-08:00" name="tearDown" finished-at="2023-01-13T20:43:26 GMT-08:00" duration-ms="574" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.DirectoryPageTest -->
+      <class name="testcases.LoginPageTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testcases.LoginPageTest@2e6a8155]" started-at="2023-01-13T20:41:42 GMT-08:00" name="setup" finished-at="2023-01-13T20:41:57 GMT-08:00" duration-ms="14115" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginTest()[pri:0, instance:testcases.LoginPageTest@2e6a8155]" started-at="2023-01-13T20:41:57 GMT-08:00" name="verifyLoginTest" finished-at="2023-01-13T20:42:04 GMT-08:00" duration-ms="7834" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.LoginPageTest@2e6a8155]" started-at="2023-01-13T20:42:04 GMT-08:00" name="tearDown" finished-at="2023-01-13T20:42:06 GMT-08:00" duration-ms="1352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.LoginPageTest -->
+      <class name="testcases.MyInfoPageTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testcases.MyInfoPageTest@1e0b4072]" started-at="2023-01-13T20:44:19 GMT-08:00" name="setup" finished-at="2023-01-13T20:44:25 GMT-08:00" duration-ms="5954" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateUserInfo()[pri:0, instance:testcases.MyInfoPageTest@1e0b4072]" started-at="2023-01-13T20:44:25 GMT-08:00" name="validateUserInfo" finished-at="2023-01-13T20:44:30 GMT-08:00" duration-ms="5138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUserInfo -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.MyInfoPageTest@1e0b4072]" started-at="2023-01-13T20:44:30 GMT-08:00" name="tearDown" finished-at="2023-01-13T20:44:30 GMT-08:00" duration-ms="428" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.MyInfoPageTest -->
+      <class name="testcases.AddUserPageTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testcases.AddUserPageTest@229c6181]" started-at="2023-01-13T20:43:26 GMT-08:00" name="setup" finished-at="2023-01-13T20:43:32 GMT-08:00" duration-ms="6136" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyAddSystemUser()[pri:0, instance:testcases.AddUserPageTest@229c6181]" started-at="2023-01-13T20:43:32 GMT-08:00" name="verifyAddSystemUser" finished-at="2023-01-13T20:43:51 GMT-08:00" duration-ms="18928" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddSystemUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.AddUserPageTest@229c6181]" started-at="2023-01-13T20:43:51 GMT-08:00" name="tearDown" finished-at="2023-01-13T20:43:52 GMT-08:00" duration-ms="570" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.AddUserPageTest -->
+      <class name="testcases.DashboardPageTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testcases.DashboardPageTest@65c7a252]" started-at="2023-01-13T20:42:53 GMT-08:00" name="setup" finished-at="2023-01-13T20:42:59 GMT-08:00" duration-ms="6228" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateDashboardTasks()[pri:0, instance:testcases.DashboardPageTest@65c7a252]" started-at="2023-01-13T20:42:59 GMT-08:00" name="validateDashboardTasks" finished-at="2023-01-13T20:43:03 GMT-08:00" duration-ms="4000" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateDashboardTasks -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.DashboardPageTest@65c7a252]" started-at="2023-01-13T20:43:03 GMT-08:00" name="tearDown" finished-at="2023-01-13T20:43:03 GMT-08:00" duration-ms="332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.DashboardPageTest -->
+      <class name="testcases.AdminPageTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testcases.AdminPageTest@18df8434]" started-at="2023-01-13T20:42:36 GMT-08:00" name="setup" finished-at="2023-01-13T20:42:47 GMT-08:00" duration-ms="10758" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyEmployeeList()[pri:0, instance:testcases.AdminPageTest@18df8434]" started-at="2023-01-13T20:42:47 GMT-08:00" name="verifyEmployeeList" finished-at="2023-01-13T20:42:52 GMT-08:00" duration-ms="5455" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEmployeeList -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.AdminPageTest@18df8434]" started-at="2023-01-13T20:42:52 GMT-08:00" name="tearDown" finished-at="2023-01-13T20:42:53 GMT-08:00" duration-ms="344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.AdminPageTest -->
+    </test> <!-- chrome_est -->
+  </suite> <!-- Suite -->
+</testng-results>
