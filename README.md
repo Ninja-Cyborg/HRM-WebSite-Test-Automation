@@ -9,8 +9,7 @@ The project was initiated to Test Human Resource Website, using Selenium with Ja
 ## [**Test Run Video**]()
 
 # Getting Started
-- [**branch w/t jenkins integration**](https://github.com/Ninja-Cyborg/HRM-WebSite-Test-Automation/tree/master)
-- [**branch Jenkins Integration**]()
+- [**master branch**](https://github.com/Ninja-Cyborg/HRM-WebSite-Test-Automation/tree/master)
 
 # Prerequisites;
 - Java 8
@@ -40,6 +39,7 @@ The project was initiated to Test Human Resource Website, using Selenium with Ja
 - open project in cmd
 - run command: mvn clean test
 
+# Havn't pushed the code for jenkins integration 
 
 
 
