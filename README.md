@@ -39,7 +39,7 @@ The project was initiated to Test Human Resource Website, using Selenium with Ja
 - open project in cmd
 - run command: mvn clean test
 
- **Havn't pushed the code for jenkins integration**
+ **Havn't uploaded the jenkins HTML reports**
 
 
 
