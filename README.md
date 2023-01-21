@@ -6,7 +6,7 @@ The project was initiated to Test Human Resource Website, using Selenium with Ja
 ### Framework Features
 ### Run Tests
 
-## [**Test Run Video**]()
+## [**Test Run Video**](https://www.youtube.com/watch?v=EZVH1COxr6E)
 
 # Getting Started
 - [**master branch**](https://github.com/Ninja-Cyborg/HRM-WebSite-Test-Automation/tree/master)
