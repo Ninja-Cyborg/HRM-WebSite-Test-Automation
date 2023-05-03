@@ -39,4 +39,11 @@ The project was initiated to Test Human Resource Website, using Selenium with Ja
 - open project files directory in cmd
 - run command: mvn clean test
 
+# Test Reports
+- Test List
+![image](https://user-images.githubusercontent.com/66517017/236070460-7d9b15d6-aeec-4678-a7b7-4fa48dcbdfee.png)
+- Test Ouput Summary
+- ![image](https://user-images.githubusercontent.com/66517017/236070611-7c90bdf2-13dc-41aa-a040-ae31611fd01f.png)
+
+
  **did not uploaded the code for jenkins integration**
