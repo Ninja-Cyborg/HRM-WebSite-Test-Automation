@@ -9,7 +9,7 @@ The project was initiated to Test Human Resource Website, using Selenium with Ja
 ## [**Youtube Test Run**](https://www.youtube.com/watch?v=EZVH1COxr6E)
 
 # Getting Started
-- [**master branch**](https://github.com/Ninja-Cyborg/HRM-WebSite-Test-Automation/tree/master)
+- [Clone master branch](https://github.com/Ninja-Cyborg/HRM-WebSite-Test-Automation/tree/master)
 
 # Prerequisites;
 - Java 8
@@ -36,7 +36,7 @@ The project was initiated to Test Human Resource Website, using Selenium with Ja
 
 ## Running with Maven in cmd
 - Maven should be installed
-- open project in cmd
+- open project files directory in cmd
 - run command: mvn clean test
 
- **none code pushed for jenkins integration**
+ **did not uploaded the code for jenkins integration**
