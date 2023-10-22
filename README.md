@@ -45,5 +45,3 @@ The project was initiated to Test Human Resource Website, using Selenium with Ja
 - Test Ouput Summary
 - ![image](https://user-images.githubusercontent.com/66517017/236070611-7c90bdf2-13dc-41aa-a040-ae31611fd01f.png)
 
-
- **did not uploaded the code for jenkins integration**
